@@ -1,0 +1,121 @@
+body {
+  background: url("https://previews.123rf.com/images/cdpic/cdpic1312/cdpic131200002/24327977-bloody-wall-background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Lacquer', sans-serif;
+}
+#background-img {
+  width: 100%;
+  height: auto;
+}
+.calc {
+  background-color: #660000;
+  height: 400px;
+  width: 320px;
+  margin: auto;
+  margin-top: 20%;
+  border-radius: 15px;
+  border-style: solid;
+  border-width: 6px; 
+  border-color: #660000;
+  box-shadow: 8px 6px 7px #000000;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  grid-template-areas: 
+    "display display display display"
+    "clear clear clear multiply"
+    "seven eight nine subtract"
+    "four five six add"
+    "one two three divide"
+    "zero zero decimal equals";
+}
+.btn {
+  height: 60px;
+  width: 75px;
+  border-radius: 5px;
+  background-color: white;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 26px;
+}
+.output {
+  background-color: black;
+  height: 50px;
+  width: 310px;
+  border-radius: 15px;
+  color: #cc0000;
+  display: grid;
+  align-items: center;
+  justify-items: flex-end;
+  font-size: 30px;
+}
+#display1 {
+  margin-right: 10px;
+  position: relative;
+  bottom: 25px;
+}
+#clear {
+  width: 236px;
+}
+#zero {
+  width: 155px;
+}
+#one {
+  grid-area: one;
+}
+#two {
+  grid-area: two;
+}
+#three {
+  grid-area: three;
+}
+#four {
+  grid-area: four;
+}
+#five {
+  grid-area: five;
+}
+#six {
+  grid-area: six;
+}
+#seven {
+  grid-area: seven;
+}
+#eight {
+  grid-area: eight;
+}
+#nine {
+  grid-area: nine;
+}
+#zero {
+  grid-area: zero;
+}
+#add {
+  grid-area: add;
+  font-size: 40px;
+}
+#subtract {
+  grid-area: subtract;
+  font-size: 40px;
+}
+#multiply {
+  grid-area: multiply;
+}
+#divide {
+  grid-area: divide;
+  font-size: 30px;
+}
+#display {
+  grid-area: display;
+}
+#decimal {
+  grid-area: decimal;
+  font-size: 40px;
+}
+#clear {
+  grid-area: clear;
+}
+# equals {
+  grid-area: equals;
+  font-size: 40px;
+}

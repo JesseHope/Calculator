@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  
+
 document.querySelector("#one").addEventListener("click", inputOne);
 document.querySelector("#two").addEventListener("click", inputTwo);
 document.querySelector("#three").addEventListener("click", inputThree);

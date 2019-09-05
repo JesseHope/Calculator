@@ -4,10 +4,12 @@ body {
   background-size: cover;
   font-family: 'Lacquer', sans-serif;
 }
+
 #background-img {
   width: 100%;
   height: auto;
 }
+
 .calc {
   background-color: #660000;
   height: 400px;
@@ -30,6 +32,7 @@ body {
     "one two three divide"
     "zero zero decimal equals";
 }
+
 .btn {
   height: 60px;
   width: 75px;
@@ -38,6 +41,7 @@ body {
   font-family: 'Lacquer', sans-serif;
   font-size: 26px;
 }
+
 .output {
   background-color: black;
   height: 50px;
@@ -49,47 +53,33 @@ body {
   justify-items: flex-end;
   font-size: 30px;
 }
+
 #display1 {
   margin-right: 10px;
-  position: relative;
-  bottom: 25px;
 }
+
 #clear {
   width: 236px;
 }
+
 #zero {
   width: 155px;
 }
-#one {
-  grid-area: one;
-}
-#two {
-  grid-area: two;
-}
-#three {
-  grid-area: three;
-}
-#four {
-  grid-area: four;
-}
-#five {
-  grid-area: five;
-}
-#six {
-  grid-area: six;
-}
-#seven {
-  grid-area: seven;
-}
-#eight {
-  grid-area: eight;
-}
-#nine {
-  grid-area: nine;
-}
-#zero {
-  grid-area: zero;
-}
+
+#one {grid-area: one;}
+#two {grid-area: two;}
+#three {grid-area: three;}
+#four {grid-area: four;}
+#five {grid-area: five;}
+#six {grid-area: six;}
+#seven {grid-area: seven;}
+#eight {grid-area: eight;}
+#nine {grid-area: nine;}
+#zero {grid-area: zero;}
+#clear {grid-area: clear;}
+#display {grid-area: display;}
+#multiply {grid-area: multiply;}
+
 #add {
   grid-area: add;
   font-size: 40px;
@@ -98,24 +88,18 @@ body {
   grid-area: subtract;
   font-size: 40px;
 }
-#multiply {
-  grid-area: multiply;
-}
+
 #divide {
   grid-area: divide;
   font-size: 30px;
 }
-#display {
-  grid-area: display;
-}
+
 #decimal {
   grid-area: decimal;
   font-size: 40px;
 }
-#clear {
-  grid-area: clear;
-}
-# equals {
+
+#equals {
   grid-area: equals;
   font-size: 40px;
 }
